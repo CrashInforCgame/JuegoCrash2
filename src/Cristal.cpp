@@ -17,6 +17,7 @@ Cristal::Cristal(float x, float z, float y)
 Cristal::~Cristal(void)
 {
 }
+//
 
 void Cristal::operator+=(Cristal *m)
 {

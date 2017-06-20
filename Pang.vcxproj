@@ -98,6 +98,7 @@
     <ClCompile Include="src\Crash.cpp" />
     <ClCompile Include="src\Mundo.cpp" />
     <ClCompile Include="src\Personaje.cpp" />
+    <ClCompile Include="src\prueba.cpp" />
     <ClCompile Include="src\Suelo.cpp" />
     <ClCompile Include="src\Vector3D.cpp" />
   </ItemGroup>
@@ -116,6 +117,7 @@
     <ClInclude Include="src\MonstruoZ.h" />
     <ClInclude Include="src\Mundo.h" />
     <ClInclude Include="src\Personaje.h" />
+    <ClInclude Include="src\prueba.h" />
     <ClInclude Include="src\randomnum.h" />
     <ClInclude Include="src\Suelo.h" />
     <ClInclude Include="src\Vector3D.h" />
