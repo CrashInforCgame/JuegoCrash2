@@ -1,0 +1,58 @@
+Directrices a seguir en el videojuego Crash Bandicoot
+Personaje:
+-	Lo controla el usuario
+-	Tiene un número de vidas
+-	Realiza movimientos( moverse[←,↑,→,↓]; salto; tornado)
+-	Tiene una masa(cae por gravedad al saltar)
+-	Tiene dimensiones
+-	Tiene color
+Cajas:
+-	Tienen dimensiones en 3D
+-	Las cajas se pueden romper
+-	Tienen en su interior manzanas
+-	Pueden estar en el aire(sin gravedad)
+-	Diferentes tipos (herencia):
+
+• Normales: 	 Se rompen de un golpe (salto o tornado)
+
+• Rebote: 	Se rompen de un golpe(tornado)
+		Se rompen de varios golpes(salto)
+
+• TNT:		Se rompen y explotan ( te matan) con un golpe(tornado) o
+		con la explosión de otra caja colindante
+Se rompen de un salto pero no inmediatamente sino que aparece una cuenta atrás(3,2,1…PUM!)
+
+• Nitro:	Se rompen de un golpe(salto o tornado) ) o con la explosión de otra caja colindante y te matan al instante
+Premios:
+-	Se cogen por el personaje y una vez cogidos desaparecen
+-	Diferentes tipos(herencia):
+
+• Manzanas: 	 Giran sobre sí mismas (3D)
+		 Posición: dentro de las cajas o por el camino
+Cada vez que coges una aparece el contador de cuantas llevas y luego    desaparece
+	• Vidas:
+• Máscara:
+
+
+Trampas:
+-	Son alteraciones del terreno que matan al personaje(animación de como muere)
+-	Diferentes tipos (herencia):
+
+• Huecos en el suelo: el personaje cae por gravedad y muere
+• Pinchos en la pared: al interseccionar con ellos mueres
+• Rocas que caen
+• Lanzallamas en los laterales
+Menú:
+-	Aparece al iniciar el juego
+-	Aparece al pausar pausa durante el juego
+-	Tiene varias opciones:
+Nueva partida
+Cargar partida
+Opciones
+-	Cambia la pantalla
+Escenario:
+-	Límites del juego en 3D
+Movimientos:
+-	Desplazarse: para delante(↑),  atrás(↓) y a los lados (← y →)con una velocidad V sin aceleración
+-	Salto: aumenta un valor z y luego cae por gravedad
+-	Tornado: al pulsar X tecla el personaje gira sobre sí mismo rápido(animación durante un tiempo T
